@@ -12,7 +12,7 @@ CreateThread(function()
     for k, v in pairs(Config.Shops) do
         local blip = AddBlipForCoord(v)
         SetBlipSprite(blip, 75)
-        SetBlipColour(blip, 4)
+        SetBlipColour(blip, 8)
         SetBlipScale(blip, 0.7)
         SetBlipAsShortRange(blip, true)
         BeginTextCommandSetBlipName("ParaTattoos")
